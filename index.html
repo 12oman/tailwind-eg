@@ -6,28 +6,134 @@
     <title>Design and Computational Thinking</title>
     <link href="/dist/styles.css" rel="stylesheet">
 </head>
-<body class="bg-gray-50 text-gray-900">
-    <header class="bg-white shadow">
+<body>
+
+    <header class="bg-black">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-            <h1 class="text-4xl font-bold text-center md:text-left">Design Thinking + Computational Thinking</h1>
-            <nav class="mt-4">
-                <ul class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
-                    <li><a href="#about" class="text-rose-500 hover:text-rose-800">About</a></li>
-                    <li><a href="#artworks" class="text-rose-500 hover:text-rose-800">Artworks</a></li>
-                    <li><a href="#research" class="text-rose-500 hover:text-rose-800">Research</a></li>
-                    <li><a href="#contact" class="text-rose-500 hover:text-rose-800">Contact</a></li>
-                    <li><a href="examples.html" class="text-rose-500 hover:text-rose-800">Examples</a></li>
-                </ul>
-            </nav>
+          <nav class="mt-4">
+            <h1 class="text-xl flex-wrap space-x-2 font-bold text-rose-500">
+
+                [
+                <a href="#about" class="text-xl hover:text-rose-800">About, </a>
+                <a href="#contact" class="text-xl hover:text-rose-800">Email, </a>
+                <a href="examples.html" class="text-xl hover:text-rose-800">Tailwind Examples</a>
+                ]
+            </h1>
+          </nav>
         </div>
-    </header>
+      </header>
     
     <section id="about" class="my-6">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-lg font-semibold">About This Project</h2>
+            <h2 class="text-lg font-semibold">What is Computational Thinking?</h2>
             <p class="mt-1">This case study explores the integration of artificial intelligence (AI) tools with the creative coding framework p5.js to enhance student learning through the creation of a digital artwork. Adopting the PAIR (Problem formulation, AI tool selection, Interaction, Reflection) model, we designed a series of activities for students to incorporate AI into their creative coding projects (Oguz A. Acar, 2023). The activities guided students through problem formulation, AI tool selection, interaction with the AI to generate code and refine their artwork, and reflection on the experience. Student and teacher reflections provided insights into the challenges and potential of merging AI with creative coding. The case study highlights the innovative possibilities at the intersection of AI and art and offers a structured approach for educators to engage students in AI-enhanced creative projects.</p>
         </div>
     </section>
+
+<!-- good steps -->
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+          <div class="flex flex-wrap w-full">
+            <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
+              <div class="flex relative pb-12">
+                <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-rose-500 inline-flex items-center justify-center text-white relative z-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 125" class="w-5 h-5" fill="white" stroke-width="2">
+                      <path d="M92.5,17.5h-85C6.1,17.5,5,18.6,5,20v20c0,1.4,1.1,2.5,2.5,2.5h85c1.4,0,2.5-1.1,2.5-2.5V20C95,18.6,93.9,17.5,92.5,17.5z M90,37.5H10v-15h80V37.5z"/>
+                      <path d="M60,82.5H40c-1.4,0-2.5,1.1-2.5,2.5v20c0,1.4,1.1,2.5,2.5,2.5h20c1.4,0,2.5-1.1,2.5-2.5V85C62.5,83.6,61.4,82.5,60,82.5z M57.5,102.5h-15v-15h15V102.5z"/>
+                      <path d="M27.5,82.5h-20C6.1,82.5,5,83.6,5,85v20c0,1.4,1.1,2.5,2.5,2.5h20c1.4,0,2.5-1.1,2.5-2.5V85C30,83.6,28.9,82.5,27.5,82.5z M25,102.5H10v-15h15V102.5z"/>
+                      <path d="M92.5,82.5h-20c-1.4,0-2.5,1.1-2.5,2.5v20c0,1.4,1.1,2.5,2.5,2.5h20c1.4,0,2.5-1.1,2.5-2.5V85C95,83.6,93.9,82.5,92.5,82.5z M90,102.5H75v-15h15V102.5z"/>
+                      <path d="M17.5,50c-1.4,0-2.5,1.1-2.5,2.5v14l-3.2-3.2c-1-1-2.6-1-3.5,0c-1,1-1,2.6,0,3.5l7.5,7.5c1,1,2.6,1,3.5,0l7.5-7.5 c1-1,1-2.6,0-3.5c-1-1-2.6-1-3.5,0L20,66.5v-14C20,51.1,18.9,50,17.5,50z"/>
+                      <path d="M50,50c-1.4,0-2.5,1.1-2.5,2.5v14l-3.2-3.2c-1-1-2.6-1-3.5,0c-1,1-1,2.6,0,3.5l7.5,7.5c1,1,2.6,1,3.5,0l7.5-7.5 c1-1,1-2.6,0-3.5c-1-1-2.6-1-3.5,0l-3.3,3.2v-14C52.5,51.1,51.4,50,50,50z"/>
+                      <path d="M82.5,50c-1.4,0-2.5,1.1-2.5,2.5v14l-3.2-3.2c-1-1-2.6-1-3.5,0c-1,1-1,2.6,0,3.5l7.5,7.5c1,1,2.6,1,3.5,0l7.5-7.5 c1-1,1-2.6,0-3.5c-1-1-2.6-1-3.5,0L85,66.5v-14C85,51.1,83.9,50,82.5,50z"/>
+                    </svg>
+                  </div>
+                <div class="flex-grow pl-4">
+                  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">DECOMPOSITION</h2>
+                  <p class="leading-relaxed">Breaking down a complex problem or system into smaller, more manageable parts or subproblems.</p>
+                </div>
+              </div>
+              <div class="flex relative pb-12">
+                <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                                <!-- Decent Pattern Recognition icon -->
+          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-rose-500 inline-flex items-center justify-center text-white relative z-10">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 135" class="w-5 h-5" fill="white">
+              <path class="fill-current" d="M55,96c5.1,0,9.2,4.1,9.2,9.2c0,5.1-4.1,9.2-9.2,9.2c-5.1,0-9.2-4.1-9.2-9.2C45.8,100.1,49.9,96,55,96z
+              M92.1,96c5.1,0,9.2,4.1,9.2,9.2c0,5.1-4.1,9.2-9.2,9.2s-9.2-4.1-9.2-9.2C83,100.1,87.1,96,92.1,96z M55,58.8c5.1,0,9.2,4.1,9.2,9.2
+              c0,5.1-4.1,9.2-9.2,9.2c-5.1,0-9.2-4.1-9.2-9.2C45.8,63,49.9,58.8,55,58.8z M17.9,58.8c5.1,0,9.2,4.1,9.2,9.2c0,5.1-4.1,9.2-9.2,9.2
+              c-5.1,0-9.2-4.1-9.2-9.2C8.7,63,12.8,58.8,17.9,58.8z M92.2,58.8c5.1,0,9.2,4.1,9.2,9.2c0,5.1-4.1,9.2-9.2,9.2S83,73.1,83,68
+              C83,63,87.1,58.8,92.2,58.8z M90.4,20.6c5.1,0,9.2,4.1,9.2,9.2c0,5.1-4.1,9.2-9.2,9.2c-5.1,0-9.2-4.1-9.2-9.2S85.4,20.6,90.4,20.6z
+              M55,21.7c5.1,0,9.2,4.1,9.2,9.2s-4.1,9.2-9.2,9.2c-5.1,0-9.2-4.1-9.2-9.2C45.8,25.8,49.9,21.7,55,21.7z M17.9,21.7
+              c5.1,0,9.2,4.1,9.2,9.2s-4.1,9.2-9.2,9.2c-5.1,0-9.2-4.1-9.2-9.2C8.7,25.8,12.8,21.7,17.9,21.7z M17.9,96c5.1,0,9.2,4.1,9.2,9.2
+              c0,5.1-4.1,9.2-9.2,9.2c-5.1,0-9.2-4.1-9.2-9.2C8.7,100.1,12.8,96,17.9,96z M86.3,38c-0.6-0.3-1.1-0.6-1.6-1L60.8,60.9
+              c0.5,0.4,0.9,0.8,1.3,1.3L86.3,38z M27,29.9c0.1,0.6,0.1,1.3,0,1.9h18.9c-0.1-0.6-0.1-1.3,0-1.9H27z M64.1,29.9
+              c0.1,0.6,0.1,1.3,0,1.9h17.3c-0.1-0.6-0.2-1.2-0.2-1.9H64.1z M91.2,39.1v19.8c0.6-0.1,1.3-0.1,1.9,0V39.1c0-0.2,0-0.3-0.1-0.5
+              c-0.6,0.2-1.1,0.3-1.8,0.3C91.2,39,91.2,39.1,91.2,39.1L91.2,39.1z M93.1,77.2c-0.6,0.1-1.3,0.1-1.9,0V96c0.6-0.1,1.3-0.1,1.9,0
+              V77.2z M83,106.1c-0.1-0.6-0.1-1.3,0-1.9H64.1c0.1,0.6,0.1,1.3,0,1.9H83z M45.9,106.1c-0.1-0.6-0.1-1.3,0-1.9H27
+              c0.1,0.6,0.1,1.3,0,1.9H45.9z M16.9,96c0.6-0.1,1.3-0.1,1.9,0V77.2c-0.6,0.1-1.3,0.1-1.9,0V96z M16.9,58.9c0.6-0.1,1.3-0.1,1.9,0V40
+              c-0.6,0.1-1.3,0.1-1.9,0V58.9z M25,36.7c-0.4,0.5-0.8,0.9-1.3,1.3l24.2,24.2c0.4-0.5,0.8-0.9,1.3-1.3L25,36.7z M62.1,73.8
+              c-0.4,0.5-0.8,0.9-1.3,1.3L85,99.4c0.4-0.5,0.8-0.9,1.3-1.3L62.1,73.8z M55.9,40c-0.6,0.1-1.3,0.1-1.9,0v18.9c0.6-0.1,1.3-0.1,1.9,0
+              V40z M55.9,77.2c-0.6,0.1-1.3,0.1-1.9,0V96c0.6-0.1,1.3-0.1,1.9,0V77.2z M27,67.1c0.1,0.6,0.1,1.3,0,1.9h18.9
+              c-0.1-0.6-0.1-1.3,0-1.9H27z M64.1,67.1c0.1,0.6,0.1,1.3,0,1.9H83c-0.1-0.6-0.1-1.3,0-1.9H64.1z M49.2,75.2
+              c-0.5-0.4-0.9-0.8-1.3-1.3L23.6,98c0.5,0.4,0.9,0.8,1.3,1.3L49.2,75.2z"/>
+            </svg>
+          </div>
+                <div class="flex-grow pl-4">
+                  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">PATTERN RECOGNITION</h2>
+                  <p class="leading-relaxed">Identifying patterns, similarities, or common aspects among the decomposed parts or subproblems. This helps in understanding the problem better and finding efficient solutions.</p>
+                </div>
+              </div>
+              <div class="flex relative pb-12">
+                <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-rose-500 inline-flex items-center justify-center text-white relative z-10">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <circle cx="12" cy="5" r="3"></circle>
+                    <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+                  </svg>
+                </div>
+                <div class="flex-grow pl-4">
+                  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">ABSTRACTION</h2>
+                  <p class="leading-relaxed">Focusing on the essential features of the problem while ignoring irrelevant details. This involves creating models, representations, or generalizations of the problem.</p>
+                </div>
+              </div>
+              <div class="flex relative pb-12">
+                <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-rose-500 inline-flex items-center justify-center text-white relative z-10">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <div class="flex-grow pl-4">
+                  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">DESIGN</h2>
+                  <p class="leading-relaxed">Algorithm Design: Developing a step-by-step procedure or set of instructions to solve the problem. This is similar to creating a plan or a prototype in design thinking.</p>
+                </div>
+              </div>
+              <div class="flex relative">
+                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-rose-500 inline-flex items-center justify-center text-white relative z-10">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                    <path d="M22 4L12 14.01l-3-3"></path>
+                  </svg>
+                </div>
+                <div class="flex-grow pl-4">
+                  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">FINISH</h2>
+                  <p class="leading-relaxed">Pitchfork ugh tattooed scenester echo park gastropub whatever cold-pressed retro.</p>
+                </div>
+              </div>
+            </div>
+            <img class="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12" src="/images/FLARE_14_2.jpg" alt="step">
+          </div>
+        </div>
+      </section>
 
     <section id="research" class="my-6">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
